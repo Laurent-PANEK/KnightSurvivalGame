@@ -2842,7 +2842,7 @@ GameObject:
   - component: {fileID: 900291951}
   - component: {fileID: 900291950}
   m_Layer: 0
-  m_Name: Terrain
+  m_Name: game_terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4436,6 +4436,10 @@ Prefab:
     - target: {fileID: 100000, guid: f583b76f151a3ea408e2801ea819059f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f583b76f151a3ea408e2801ea819059f, type: 3}
+      propertyPath: m_Icon
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f583b76f151a3ea408e2801ea819059f, type: 3}
