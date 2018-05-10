@@ -245,29 +245,7 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 1629574520716774, guid: 579f797e1a626584785ce70809a003bc, type: 2}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 1609766734759716, guid: 579f797e1a626584785ce70809a003bc, type: 2}
-      propertyPath: m_TagString
-      value: PlayerWeapon
-      objectReference: {fileID: 0}
-    - target: {fileID: 1270847045070794, guid: 579f797e1a626584785ce70809a003bc, type: 2}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 54766761241900812, guid: 579f797e1a626584785ce70809a003bc,
-        type: 2}
-      propertyPath: m_IsKinematic
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1635048974342598, guid: 579f797e1a626584785ce70809a003bc, type: 2}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 64218294904055014, guid: 579f797e1a626584785ce70809a003bc, type: 2}
+    m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 579f797e1a626584785ce70809a003bc, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1559199043

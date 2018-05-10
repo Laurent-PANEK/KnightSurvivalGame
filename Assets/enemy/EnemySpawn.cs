@@ -22,7 +22,7 @@ public class EnemySpawn : MonoBehaviour
         if (ActiveEnemy.Length < EnemyNumber)
         {
             if (!IsInvoking("AddEnemy"))
-                InvokeRepeating("AddEnemy", 2.0f, 3.0f);
+                InvokeRepeating("AddEnemy", 2.0f, 2.0f);
         }
         else
         {
@@ -35,6 +35,6 @@ public class EnemySpawn : MonoBehaviour
     public void AddEnemy()
     {
         int r = Random.Range(0, SpawnPos.Length);
-        Instantiate(EnemyPrefab, SpawnPos[r]);
+        Instantiate(EnemyPrefab, SpawnPos[r].position, SpawnPos[r].rotation);
     }
 }

@@ -20,6 +20,7 @@ public class EnemyAction : MonoBehaviour
 
     public void OnCollisionEnter(Collision collision)
     {
+        Debug.Log(collision.gameObject.name);
         if (collision.gameObject.tag == "PlayerWeapon")
         {
             GetHit(collision.gameObject.GetComponent<Stats>().Damage);

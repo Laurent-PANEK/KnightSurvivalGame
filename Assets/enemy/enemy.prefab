@@ -463,7 +463,6 @@ GameObject:
   - component: {fileID: 135405747589046826}
   - component: {fileID: 114760273490686870}
   - component: {fileID: 114045865164119238}
-  - component: {fileID: 54898734318392818}
   - component: {fileID: 136603103719066752}
   - component: {fileID: 114180217997674408}
   m_Layer: 0
@@ -1379,7 +1378,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1533082900843002}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 238.5, y: 0, z: 88.22}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4283095747629114}
@@ -2245,21 +2244,6 @@ Transform:
   m_Father: {fileID: 4051062793654882}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -0.000004192868, y: 0.000001886383, z: 87.57849}
---- !u!54 &54898734318392818
-Rigidbody:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1533082900843002}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!96 &96790432161055918
 TrailRenderer:
   serializedVersion: 2
@@ -2426,8 +2410,81 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Destinations:
-  - {fileID: 4797334669538164, guid: 2896377e3043522439f2eac6c7616063, type: 2}
-  - {fileID: 4232695858084036, guid: 72bc17321c1e6d848b55eebb44ea80dd, type: 2}
+  - {fileID: 4785077005799698, guid: fd8c47217b157e34e8f5e558e25d4ed1, type: 2}
+  - {fileID: 4732552458208030, guid: 53fad9f2ce5a00240a23c57892e2ff92, type: 2}
+  - {fileID: 4595206772651332, guid: 87abb2b0e24510145b8bf975aba03359, type: 2}
+  - {fileID: 4207904175916538, guid: 3a636c49a9ed4694d8187d43a7450f83, type: 2}
+  - {fileID: 4817209126195148, guid: b5e61be2cf1801d42a373dc9c8aa4bfa, type: 2}
+  - {fileID: 4508397487999800, guid: 0a32b64fbd86a404390083aa135dc506, type: 2}
+  - {fileID: 4118603290138944, guid: 20ea26a7f1e93704b9b5c0f7e9917fd6, type: 2}
+  - {fileID: 4794624123552628, guid: d5728b32f7ec44c4b8d3efd6bf1d5fdb, type: 2}
+  - {fileID: 4147052025294340, guid: 9cc052225f558b545987a7ba577143dd, type: 2}
+  - {fileID: 4005138476325156, guid: b4b6cd3e18995fc4f80274c57c88242e, type: 2}
+  - {fileID: 4036785913623436, guid: 4e729976e3944e344b65c83f461a5ed8, type: 2}
+  - {fileID: 4642214246981044, guid: fc6c7922047812f439ffb67da93e918d, type: 2}
+  - {fileID: 4336934927924566, guid: 960b061ac81aad148bb183dd74f110f9, type: 2}
+  - {fileID: 4579151820505310, guid: 12cb40ef2ca09584bb3540d9ba89f9c6, type: 2}
+  - {fileID: 4710328456000408, guid: 7ab47a6cab8602b4d93703f879978935, type: 2}
+  - {fileID: 4290416863072468, guid: 2c4613f4954c9b5429a8a373e9e26692, type: 2}
+  - {fileID: 4798447619076404, guid: b315083752d59f04da264da9932e7d59, type: 2}
+  - {fileID: 4014977641466152, guid: fc443d846ea9a68499226285e3f8a6a1, type: 2}
+  - {fileID: 4284180397645974, guid: 6d6deccc6ea06e449811eb7f3225b3c1, type: 2}
+  - {fileID: 4658422305445048, guid: 64504f3473e9ddd4ca94d47bdb1835c9, type: 2}
+  - {fileID: 4331890649673170, guid: f64718b3ba7d8a24c81d452f32401eeb, type: 2}
+  - {fileID: 4734342514615368, guid: 4d73cc3263f3bef499a4323ad6b146c6, type: 2}
+  - {fileID: 4108557343791926, guid: 74c86981ecd50e34ea47357880c9a439, type: 2}
+  - {fileID: 4378427000398134, guid: 91338036114bad24d8d9210baecf22cc, type: 2}
+  - {fileID: 4008633615573610, guid: 5fd764b7574e3ac46a6be51e0953fdc9, type: 2}
+  - {fileID: 4403239252961396, guid: 3c5e246f9b8f3a44db984d40b1b04964, type: 2}
+  - {fileID: 4703803129540814, guid: 2f09e6b9913fbe04788ad1c992987847, type: 2}
+  - {fileID: 4134862421184926, guid: 1c65e1de9b3f441429ef1884814c536a, type: 2}
+  - {fileID: 4435899375882534, guid: 6997057ef5452734a88dbb0b16b0ab82, type: 2}
+  - {fileID: 4927969476386592, guid: a8a1a50fff4e68d468928d6dd7693af6, type: 2}
+  - {fileID: 4188616106343278, guid: e138a1d6be9c67442bea89fcc931ca19, type: 2}
+  - {fileID: 4726911054662424, guid: 5adc8c683f23c1643b38e1465f96db9b, type: 2}
+  - {fileID: 4267136789719960, guid: 56c47e9e96a33e642a9d3b70b327fd0e, type: 2}
+  - {fileID: 4405085113867494, guid: 9fdd7aa2698e72840ad4e1692098c6cc, type: 2}
+  - {fileID: 4862032356373804, guid: a42b4a96a72696540bed99864533b60a, type: 2}
+  - {fileID: 4730580825960082, guid: c466ccc9b4923a142b6520b86e8a8071, type: 2}
+  - {fileID: 4671262551112952, guid: 8581fbfc1ecefe94bac9de5cbbc0aa52, type: 2}
+  - {fileID: 4441803327011862, guid: c62c943a15cd89d48b249699a5706f46, type: 2}
+  - {fileID: 4014950538749298, guid: a60730d7b0275cb409d438cc45e5ad43, type: 2}
+  - {fileID: 4967671132201916, guid: a15a09dfe520b5940805782b071b86bf, type: 2}
+  - {fileID: 4495481578911994, guid: 4593e7e66e3c6104ba4a096d23a45ce8, type: 2}
+  - {fileID: 4038280484050942, guid: 278b3e140a3ef4a43bbaa27ae3d07740, type: 2}
+  - {fileID: 4602526862838760, guid: c63cbf8aa7d8f3e41b1c585cf533145c, type: 2}
+  - {fileID: 4666025070581434, guid: 6554ec5aa31346747a7e5bef11073f29, type: 2}
+  - {fileID: 4100419606783800, guid: 949148ce6dec9554d94dce8807e2d367, type: 2}
+  - {fileID: 4870914621769226, guid: 79e6c898abf73524fb6ee73d61d54b0c, type: 2}
+  - {fileID: 4298150014416000, guid: a439bcf01a19513479c776f15964bd61, type: 2}
+  - {fileID: 4968811919811354, guid: 79ad528e45fed12429ce2f4b464b1a2b, type: 2}
+  - {fileID: 4602439940635338, guid: 36b496b56bd181c44a3f6755509a1d12, type: 2}
+  - {fileID: 4373783792806578, guid: df58ac99ba3760648b100a083d8ceef1, type: 2}
+  - {fileID: 4914078847009100, guid: 4a60b7ca9e89d654fa1e09b51cfad58e, type: 2}
+  - {fileID: 4511455464482816, guid: 80dcb62810f3e9c44bc10839be3a9550, type: 2}
+  - {fileID: 4996260806881482, guid: bdae994556fda9b44b37479057dd1c77, type: 2}
+  - {fileID: 4654327725511310, guid: 2470d28937800854c8cb848ab8a2953f, type: 2}
+  - {fileID: 4135050020617348, guid: 47d0cfd4bcbadc64ba3949cc9e308d3d, type: 2}
+  - {fileID: 4968211171323522, guid: 69dc7464dfdd31d49adc4d62a6d52a74, type: 2}
+  - {fileID: 4131456940387772, guid: 2ffffeb75035b2742be549dd04df2c01, type: 2}
+  - {fileID: 4303022766228202, guid: 304c81a03d58b324d8b90f2522f899b4, type: 2}
+  - {fileID: 4994548058475950, guid: 07dd7cc225a66ae4cbc57a76aca31db6, type: 2}
+  - {fileID: 4531837460825392, guid: cff49832c17979b4b946202af6b08592, type: 2}
+  - {fileID: 4957576537819562, guid: cfc5dcbcfde971e44a846e0de49e82b7, type: 2}
+  - {fileID: 4370689662931208, guid: efb07ddc1ea14824f832a06f060a7306, type: 2}
+  - {fileID: 4248312060953638, guid: 00fd2c43003473f43aa67b7fc93f928a, type: 2}
+  - {fileID: 4096556836678600, guid: 969cea77e229f234db90cd57198bafc6, type: 2}
+  - {fileID: 4928102128305706, guid: 97267e9fb39ab9b4b8c640b9f62b234f, type: 2}
+  - {fileID: 4557706645432302, guid: 5dfc45784cf16944681f017db4d52bc3, type: 2}
+  - {fileID: 4935222845592754, guid: f1b78469ddbeb314db33be92ea4c1cf0, type: 2}
+  - {fileID: 4376915117351362, guid: a7f995ade984b0349b66bdac7aa4c876, type: 2}
+  - {fileID: 4172239614565246, guid: 3494b9b95a710ee4bad7303b09464d98, type: 2}
+  - {fileID: 4205559630888838, guid: cb73876ca22a12e4486d155e933b5df4, type: 2}
+  - {fileID: 4244015618931794, guid: 7272f042d0e70a84f83b36b7673fa523, type: 2}
+  - {fileID: 4670473789473760, guid: aada7f638135edb4b8850cda59121108, type: 2}
+  - {fileID: 4268157706335450, guid: afc157efdf40c7848a916ddda1173c35, type: 2}
+  - {fileID: 4295459815308762, guid: e77f34f6ccf742d478f6d92d5f9d48be, type: 2}
+  - {fileID: 4383135388727076, guid: 5d8685679fe5bc14fa62d40834caa0e7, type: 2}
 --- !u!114 &114760273490686870
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2463,7 +2520,7 @@ CapsuleCollider:
   m_Radius: 1.5
   m_Height: 7
   m_Direction: 1
-  m_Center: {x: 0, y: 3.2, z: 0}
+  m_Center: {x: 0, y: 4, z: 0}
 --- !u!137 &137113046195091816
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
@@ -2627,19 +2684,19 @@ NavMeshAgent:
   m_GameObject: {fileID: 1533082900843002}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 5
-  m_Acceleration: 8
+  m_Radius: 1
+  m_Speed: 10
+  m_Acceleration: 20
   avoidancePriority: 50
   m_AngularSpeed: 120
   m_StoppingDistance: 0
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
-  m_Height: 2
-  m_BaseOffset: 0
+  m_Height: 6
+  m_BaseOffset: -1
   m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
+  m_ObstacleAvoidanceType: 2
 --- !u!198 &198173941559708476
 ParticleSystem:
   m_ObjectHideFlags: 1
@@ -2874,7 +2931,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startSizeY:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 1
       minScalar: 1
       maxCurve:
@@ -2915,7 +2972,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startSizeZ:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 1
       minScalar: 1
       maxCurve:
@@ -6256,7 +6313,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startSizeY:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 1
       minScalar: 1
       maxCurve:
@@ -6297,7 +6354,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startSizeZ:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 1
       minScalar: 1
       maxCurve:
@@ -9620,7 +9677,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startSizeY:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 1
       minScalar: 1
       maxCurve:
@@ -9661,7 +9718,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startSizeZ:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 1
       minScalar: 1
       maxCurve:
@@ -9702,7 +9759,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startRotationX:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 0
       minScalar: 0
       maxCurve:
@@ -9743,7 +9800,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startRotationY:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 0
       minScalar: 0
       maxCurve:
@@ -16279,7 +16336,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startSizeY:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 1
       minScalar: 1
       maxCurve:
@@ -16320,7 +16377,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startSizeZ:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 1
       minScalar: 1
       maxCurve:
