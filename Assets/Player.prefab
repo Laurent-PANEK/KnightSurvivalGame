@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 4500472488885980}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -155,6 +155,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4570723799591228}
   - component: {fileID: 137484980078506136}
+  - component: {fileID: 64019281184271772}
   m_Layer: 0
   m_Name: cloth
   m_TagString: Untagged
@@ -1171,6 +1172,7 @@ GameObject:
   - component: {fileID: 4810647586301598}
   - component: {fileID: 137794367411703874}
   - component: {fileID: 64156272109064370}
+  - component: {fileID: 54425455813735350}
   m_Layer: 0
   m_Name: body
   m_TagString: Untagged
@@ -1217,8 +1219,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4077641563557672}
   - component: {fileID: 114814437502088326}
-  - component: {fileID: 54180750499660808}
-  - component: {fileID: 65975312591305926}
   m_Layer: 0
   m_Name: Knight
   m_TagString: Untagged
@@ -1286,7 +1286,7 @@ GameObject:
   - component: {fileID: 111568141875122278}
   m_Layer: 0
   m_Name: Dragonblade
-  m_TagString: Untagged
+  m_TagString: PlayerWeapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2032,8 +2032,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1098100898176890}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 243.4, y: 0, z: 51.6}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 11.74}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children:
   - {fileID: 4077641563557672}
   m_Father: {fileID: 0}
@@ -2840,12 +2840,12 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1936117536565886}
   m_Mesh: {fileID: 4300000, guid: 4f5854f24c1370b4d887ec9a18399327, type: 3}
---- !u!54 &54180750499660808
+--- !u!54 &54425455813735350
 Rigidbody:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1899135556141486}
+  m_GameObject: {fileID: 1869141099583238}
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
@@ -2855,6 +2855,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!64 &64019281184271772
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1202951462564148}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300006, guid: ffaf641b210f5ea41952cf36f1379d66, type: 3}
 --- !u!64 &64156272109064370
 MeshCollider:
   m_ObjectHideFlags: 1
@@ -2868,7 +2882,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_SkinWidth: 0.01
-  m_Mesh: {fileID: 0}
+  m_Mesh: {fileID: 4300008, guid: ffaf641b210f5ea41952cf36f1379d66, type: 3}
 --- !u!64 &64672537526843946
 MeshCollider:
   m_ObjectHideFlags: 1
@@ -2879,22 +2893,10 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: cf12dc9cfbd39b14aaeae7c519275979, type: 3}
---- !u!65 &65975312591305926
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1899135556141486}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 2, z: 1}
-  m_Center: {x: 0, y: 1, z: 0}
 --- !u!81 &81295202743697188
 AudioListener:
   m_ObjectHideFlags: 1
