@@ -7,6 +7,8 @@ TagManager:
   - enemy_mov_pos
   - enemy_spawn_pos
   - PlayerWeapon
+  - Enemy
+  - Terrain
   layers:
   - Default
   - TransparentFX
