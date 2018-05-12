@@ -12,7 +12,7 @@ public class EnemySpawn : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        InvokeRepeating("AddEnemy", 2.0f, 3.0f);
+        InvokeRepeating("AddEnemy", 0.0f, 2.0f);
     }
 
     // Update is called once per frame
@@ -22,7 +22,7 @@ public class EnemySpawn : MonoBehaviour
         if (ActiveEnemy.Length < EnemyNumber)
         {
             if (!IsInvoking("AddEnemy"))
-                InvokeRepeating("AddEnemy", 2.0f, 2.0f);
+                InvokeRepeating("AddEnemy", 0.0f, 2.0f);
         }
         else
         {

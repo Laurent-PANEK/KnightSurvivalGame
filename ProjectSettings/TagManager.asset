@@ -9,6 +9,8 @@ TagManager:
   - PlayerWeapon
   - Enemy
   - Terrain
+  - Item
+  - Timer
   layers:
   - Default
   - TransparentFX

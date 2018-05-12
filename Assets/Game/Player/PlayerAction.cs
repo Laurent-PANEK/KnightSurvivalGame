@@ -27,32 +27,35 @@ public class PlayerAction : MonoBehaviour {
 
         if (r)
         {
-            if (Input.GetKey(KeyCode.D))
+            if (!GetComponent<PlayerStats>().IsDead() && !GameObject.FindGameObjectWithTag("Timer").GetComponent<Timer>().IsOver)
             {
-                transform.Rotate(new Vector3(0, RotSpeed, 0));
-            }
-            if (Input.GetKey(KeyCode.Q))
-            {
-                transform.Rotate(new Vector3(0, -RotSpeed, 0));
-            }
-            if (Input.GetKey(KeyCode.Z))
-            {
-                r.AddForce(transform.forward * MovSpeed);
-                anim.SetBool("IsRunning", true);
-            }
-            if (Input.GetKey(KeyCode.S))
-            {
-                r.AddForce(-transform.forward * MovSpeed);
-            }
-            if (Input.GetKey(KeyCode.Space))
-            {
-                Debug.Log(CanJump);
-                if (CanJump)
-                    r.AddForce(new Vector3(0, JumpSpeed, 0));
-            }
-            if (Input.GetMouseButtonDown(0))
-            {
-                anim.SetTrigger("Attack");
+                if (Input.GetKey(KeyCode.D))
+                {
+                    transform.Rotate(new Vector3(0, RotSpeed, 0));
+                }
+                if (Input.GetKey(KeyCode.Q))
+                {
+                    transform.Rotate(new Vector3(0, -RotSpeed, 0));
+                }
+                if (Input.GetKey(KeyCode.Z))
+                {
+                    r.AddForce(transform.forward * MovSpeed);
+                    anim.SetBool("IsRunning", true);
+                }
+                if (Input.GetKey(KeyCode.S))
+                {
+                    r.AddForce(-transform.forward * MovSpeed);
+                }
+                if (Input.GetKey(KeyCode.Space))
+                {
+                    Debug.Log(CanJump);
+                    if (CanJump)
+                        r.AddForce(new Vector3(0, JumpSpeed, 0));
+                }
+                if (Input.GetMouseButtonDown(0))
+                {
+                    anim.SetTrigger("Attack");
+                }
             }
         }
     }
