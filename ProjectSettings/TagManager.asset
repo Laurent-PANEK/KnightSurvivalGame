@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - enemy_mov_pos
+  - enemy_spawn_pos
+  - PlayerWeapon
+  - Enemy
+  - Terrain
+  - Item
+  - Timer
   layers:
   - Default
   - TransparentFX
