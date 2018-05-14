@@ -9,11 +9,12 @@ Jeu de survie développé avec Unity. Le joueur seul dans une ville doit survivr
 
 ## Download
 
-- [Window](https://) (lien a venir)
+- [Windows](https://mega.nz/#!005zTBiR!goHzB0kZJpIaCti7ExF2aLjeQ4IZp55UQmNOD8yhDmE)
 
 ## Decscriptif du jeu
 
-    La version alpha ne contient que le strict minimum, d'autres ajout et des refontes importantes sont à prévoir dans les prochaines versions.
+    La version alpha ne contient que le strict minimum,
+    d'autres ajout et des refontes importantes sont à prévoir dans les prochaines versions.
 
 ### Contrôles
 
